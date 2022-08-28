@@ -1,0 +1,297 @@
+.link {
+  height: 100vh;
+  background-color: #c77876;
+  height: 100vh;
+  display: flex;
+  /* background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%); */
+  justify-content: center;
+}
+img {
+  width: 1.5em;
+  margin-left: -14px;
+}
+.mipriv-logo {
+  /* content: url(../../../assets/icons/mipriv.svg); */
+  width: 0.7em;
+}
+i {
+  margin-right: 1em;
+}
+button {
+  padding: 1.3em 3em;
+  margin-top: 14px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c290e8;
+  box-shadow: 0px 15px 20px rgba(161, 140, 209, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+button:hover .mipriv-logo {
+  /* content: url(../../../assets/icons/mipriv-outline.svg); */
+  width: 0.7em;
+}
+button:active {
+  transform: translateY(-1px);
+}
+
+/* !card */
+/* From uiverse.io by @alexruix */
+
+.card {
+  margin-top: 10vh;
+  width: 25vw;
+  height: 75vh;
+  background: #f5f5f5;
+  padding: 2rem 1.5rem;
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+.card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+/*Image*/
+
+/* .card-avatar {
+  display: flex;
+  width: 75px;
+  height: 75px;
+  border: 1px solid #f0f0f0;
+  border-radius: 50%;
+  font-size: 11px;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+  z-index: 99;
+  background-color: #152f50;
+} */
+.card-avatar {
+  display: flex;
+  width: 5em;
+  height: 5em;
+  border: 1px solid #f0f0f0;
+  border-radius: 50%;
+  /* font-size: 11px; */
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+  z-index: 99;
+  /* background-color: #152f50; */
+}
+
+.img-avatar {
+  cursor: pointer;
+  object-fit: fill;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+/*Card buttons*/
+
+.card-buttons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+/*Text*/
+
+.card-title {
+  color: #333;
+  font-size: 2.5em;
+  font-weight: 600;
+  font-family: dancing script;
+  line-height: 2rem;
+}
+
+.card-subtitle {
+  color: #859ba8;
+  font-size: 1.6em;
+  font-family: Alumni Sans Pinstripe;
+}
+
+/*Hover*/
+.card:hover {
+  box-shadow: 0 8px 50px #23232333;
+}
+
+.card:hover .card-info {
+  transform: translateY(-5%);
+}
+
+.card:hover .card-social {
+  transform: translateY(100%);
+  opacity: 1;
+}
+
+.card-avatar:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 480px) {
+  .card {
+    margin-top: 10vh;
+    width: 75vw;
+    height: 75vh;
+    background: #f5f5f5;
+    padding: 2rem 1.5rem;
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+  }
+}
+@media (min-width: 479px) and (max-width: 900px) {
+  .card {
+    margin-top: 10vh;
+    width: 60vw;
+    height: 75vh;
+    background: #f5f5f5;
+    padding: 2rem 1.5rem;
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+  }
+  .card-buttons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .card-subtitle {
+    color: #859ba8;
+    margin-top: 10px;
+    font-size: 1.6em;
+    font-family: Alumni Sans Pinstripe;
+  }
+}
+@media (min-width: 901px) and (max-width: 1024px) {
+  .card {
+    margin-top: 10vh;
+    width: 45vw;
+    height: 75vh;
+    background: #f5f5f5;
+    padding: 2rem 1.5rem;
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+  }
+  .card-buttons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .card-subtitle {
+    color: #859ba8;
+    margin-top: 10px;
+    font-size: 1.6em;
+    font-family: Alumni Sans Pinstripe;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .card {
+    margin-top: 10vh;
+    width: 40vw;
+    height: 75vh;
+    background: #f5f5f5;
+    padding: 2rem 1.5rem;
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+  }
+  .card-buttons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .card-subtitle {
+    color: #859ba8;
+    margin-top: 10px;
+    font-size: 1.6em;
+    font-family: Alumni Sans Pinstripe;
+  }
+}
+@media (min-width: 1201px) {
+  .card {
+    margin-top: 10vh;
+    width: 25vw;
+    height: 75vh;
+    background: #f5f5f5;
+    padding: 2rem 1.5rem;
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+  }
+  .card-buttons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .card-subtitle {
+    color: #859ba8;
+    margin-top: 10px;
+    font-size: 1.6em;
+    font-family: Alumni Sans Pinstripe;
+  }
+}
+/* @media (max-width: 700px) {
+  .card {
+    margin-top: 10vh;
+    width: 75vw;
+    height: 75vh;
+    background: #f5f5f5;
+    padding: 2rem 1.5rem;
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+  }
+
+  .card-buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 700px) and (orientation: landscape) {
+  .card {
+    margin-top: 10vh;
+    width: 75vw;
+    height: 88vh;
+    background: #f5f5f5;
+    padding: 2rem 1.5rem;
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+  }
+
+  .card-buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  button {
+    padding: 1.3em 3em;
+    margin: 0px 16px;
+    margin-top: 14px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+  }
+} */
