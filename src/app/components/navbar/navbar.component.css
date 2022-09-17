@@ -2,3 +2,12 @@
   color: #0f0f0f;
   /* color: red; */
 }
+.font-alumi {
+  font-family: Alumni Sans Pinstripe;
+}
+.font-dancing {
+  font-family: Dancing Script;
+}
+.font-dancing a {
+  font-size: 3em;
+}
