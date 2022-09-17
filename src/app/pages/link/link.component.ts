@@ -1,4 +1,3 @@
-import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-link',
@@ -6,16 +5,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./link.component.css'],
 })
 export class LinkComponent implements OnInit {
-  constructor(private httpClient: HttpClient) {}
+  constructor() {}
 
-  socialMedia = [
-    'https://www.instagram.com/coachtaniatorres/',
-    'https://www.linkedin.com/in/tania-tatiana-torres-real-59082524a/',
-    'https://wa.me/573138703512',
-  ];
+
 
   ngOnInit(): void {
-    console.log('object');
+    console.log('object3');
   }
   goToSocialNetwork(socialMedia: string) {
     return (window.location.href = socialMedia);
