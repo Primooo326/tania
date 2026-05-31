@@ -5,20 +5,19 @@
       <!-- <img class="img-avatar" src="../../../assets/fotos/profile.jpeg" alt="TaniaTorresProfile"> -->
       <!-- </div> -->
       <div class="card-title text-center">
-        <p><img src="../../../assets/icons/logo2.svg" alt="metatron"></p>
-
+        <p style="font-size: 0.8em; word-break: break-word;">{{ config.brandName }}</p>
       </div>
       <div class="card-subtitle text-center">
-        <h3>Consultora en desarrollo del ser</h3>
-        <p>Actúa ya, elige tú buen vivir</p>
+        <h3>{{ config.subtitle }}</h3>
+        <p>{{ config.slogan }}</p>
       </div>
     </div>
     <div class="card-buttons">
-      <button (click)="goToSocialNetwork('https://www.instagram.com/coachtaniatorres/')"><i
+      <button (click)="goToSocialNetwork(config.instagramUrl)"><i
           class="fa fa-instagram"></i>Instagram</button>
-      <button (click)=" goToSocialNetwork( 'https://www.linkedin.com/in/tania-tatiana-torres-real-59082524a/')"><i
+      <button (click)="goToSocialNetwork(config.linkedinUrl)"><i
           class="fa fa-linkedin"></i>LinkedIn</button>
-      <button (click)=" goToSocialNetwork( 'https://wa.me/573138703512')"> <i class="fa fa-whatsapp"></i>
+      <button (click)="goToSocialNetwork(config.whatsappUrl)"> <i class="fa fa-whatsapp"></i>
         WhatsApp</button>
       <!-- <button> <img class="mipriv-logo" src="../../../assets/icons/mipriv3.svg" alt="mipriv"> Priv</button> -->
     </div>
