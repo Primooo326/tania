@@ -12,7 +12,7 @@ export class LinkComponent implements OnInit {
     subtitle: 'Corporación Fundaciones Unidas para el Desarrollo Familiar.',
     slogan: 'Actúa hoy, elige tú buen vivir.',
     logoUrl: 'assets/icons/LOGO%20FUNIDEF%20EXPRESATE%20SIN%20FONDO.png',
-    instagramUrl: 'https://www.instagram.com/coachtaniatorres/',
+    instagramUrl: 'https://www.instagram.com/tv/Cj3IaNfD8K4/?igsh=MWpoZnBsdWxkNTBibg==',
     linkedinUrl: 'https://www.linkedin.com/in/tania-tatiana-torres-real-59082524a/',
     whatsappUrl: 'https://wa.me/573138703512'
   };
