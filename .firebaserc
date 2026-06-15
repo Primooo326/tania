@@ -1,6 +1,7 @@
 {
   "projects": {
-    "default": "pruebas-b86fb"
+    "default": "pruebas-b86fb",
+    "tania": "pruebas-b86fb"
   },
   "targets": {
     "pruebas-b86fb": {
