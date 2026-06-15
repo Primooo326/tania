@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "pruebas-b86fb"
-  }
+  },
+  "targets": {
+    "pruebas-b86fb": {
+      "hosting": {
+        "funidef": [
+          "funidef-expresate"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }
