@@ -8,13 +8,21 @@
 }
 img {
   width: 100%;
-  max-width: 330px;
+  max-width: 380px;
   height: auto;
   display: block;
   margin: 0 auto;
 }
 .mipriv-logo {
   width: 0.7em;
+}
+.tiktok-logo {
+  width: 1.2em;
+  height: 1.2em;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 1em;
+  margin-top: -3px;
 }
 i {
   margin-right: 1em;
@@ -149,7 +157,7 @@ button:active {
     transition: box-shadow 0.3s ease, transform 0.2s ease;
   }
   img {
-    max-width: 220px;
+    max-width: 260px;
   }
   button {
     padding: 1.1em 1.5em;
@@ -167,7 +175,7 @@ button:active {
     transition: box-shadow 0.3s ease, transform 0.2s ease;
   }
   img {
-    max-width: 280px;
+    max-width: 320px;
   }
   .card-buttons {
     margin-top: 40px;
@@ -192,7 +200,7 @@ button:active {
     transition: box-shadow 0.3s ease, transform 0.2s ease;
   }
   img {
-    max-width: 300px;
+    max-width: 350px;
   }
   .card-buttons {
     margin-top: 40px;
@@ -217,7 +225,7 @@ button:active {
     transition: box-shadow 0.3s ease, transform 0.2s ease;
   }
   img {
-    max-width: 320px;
+    max-width: 370px;
   }
   .card-buttons {
     margin-top: 40px;
@@ -242,7 +250,7 @@ button:active {
     transition: box-shadow 0.3s ease, transform 0.2s ease;
   }
   img {
-    max-width: 330px;
+    max-width: 380px;
   }
   .card-buttons {
     margin-top: 40px;
