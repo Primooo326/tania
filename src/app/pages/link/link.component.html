@@ -5,13 +5,13 @@
       <!-- <img class="img-avatar" src="../../../assets/fotos/profile.jpeg" alt="TaniaTorresProfile"> -->
       <!-- </div> -->
       <div class="card-title text-center">
-        <p><img [src]="config.logoUrl" alt="logo"></p>
+        <img class="logo-img" [src]="config.logoUrl" alt="logo">
       </div>
       <div class="card-subtitle text-center">
         <h3>{{ config.subtitle }}</h3>
         <p>{{ config.slogan }}</p>
       </div>
-    </div>
+    
     <div class="card-buttons">
       <button (click)="goToSocialNetwork(config.instagramUrl)"><i
           class="fa fa-instagram"></i>Instagram</button>
@@ -24,11 +24,6 @@
       </button>
       <!-- <button> <img class="mipriv-logo" src="../../../assets/icons/mipriv3.svg" alt="mipriv"> Priv</button> -->
     </div>
-    <!-- <div class="footer">
-      <h3>Actua ya</h3>
-      <p>elige tú buen vivir</p>
-    </div> -->
   </div>
-
-
+  </div>
 </section>
