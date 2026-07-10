@@ -13,6 +13,7 @@
   display: block;
   margin: 0 auto;
   margin-bottom: -20px;
+  max-width: none;
 }
 
 .mipriv-logo {
@@ -129,7 +130,9 @@ button:active {
   font-weight: 600;
   font-family: dancing script;
   line-height: 2rem;
-  width: 100%;
+  width: calc(100% + 2rem);
+  margin-left: -1rem;
+  margin-right: -1rem;
   overflow: hidden;
 }
 
@@ -144,7 +147,7 @@ button:active {
 .card-subtitle h3 {
   font-size: 1.3em;
   font-weight: 600;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .card-subtitle p {
@@ -168,7 +171,7 @@ button:active {
 @media (max-width: 480px) {
   .card {
     margin-top: 5vh;
-    width: 90vw;
+    width: 95vw;
     height: auto;
     min-height: 80vh;
     background: #f3d8d7;
@@ -176,8 +179,10 @@ button:active {
     transition: box-shadow 0.3s ease, transform 0.2s ease;
   }
 
-  .logo-img {
-    max-width: 350px;
+  .card-title {
+    width: calc(100% + 2.4rem);
+    margin-left: -1.2rem;
+    margin-right: -1.2rem;
   }
 
   button {
@@ -197,8 +202,10 @@ button:active {
     transition: box-shadow 0.3s ease, transform 0.2s ease;
   }
 
-  .logo-img {
-    max-width: 340px;
+  .card-title {
+    width: calc(100% + 2rem);
+    margin-left: -1rem;
+    margin-right: -1rem;
   }
 
   .card-buttons {
@@ -226,8 +233,10 @@ button:active {
     transition: box-shadow 0.3s ease, transform 0.2s ease;
   }
 
-  .logo-img {
-    max-width: 380px;
+  .card-title {
+    width: calc(100% + 2rem);
+    margin-left: -1rem;
+    margin-right: -1rem;
   }
 
   .card-buttons {
@@ -255,8 +264,10 @@ button:active {
     transition: box-shadow 0.3s ease, transform 0.2s ease;
   }
 
-  .logo-img {
-    max-width: 400px;
+  .card-title {
+    width: calc(100% + 2rem);
+    margin-left: -1rem;
+    margin-right: -1rem;
   }
 
   .card-buttons {
@@ -284,8 +295,10 @@ button:active {
     transition: box-shadow 0.3s ease, transform 0.2s ease;
   }
 
-  .logo-img {
-    max-width: 440px;
+  .card-title {
+    width: calc(100% + 2rem);
+    margin-left: -1rem;
+    margin-right: -1rem;
   }
 
   .card-buttons {
