@@ -8,12 +8,11 @@
 }
 
 .logo-img {
-  width: 90%;
-  max-width: 440px;
+  width: 100%;
   height: auto;
   display: block;
   margin: 0 auto;
-  margin-bottom: -45px;
+  margin-bottom: -20px;
 }
 
 .mipriv-logo {
@@ -131,6 +130,7 @@ button:active {
   font-family: dancing script;
   line-height: 2rem;
   width: 100%;
+  overflow: hidden;
 }
 
 .card-subtitle {
@@ -177,7 +177,7 @@ button:active {
   }
 
   .logo-img {
-    max-width: 280px;
+    max-width: 350px;
   }
 
   button {
